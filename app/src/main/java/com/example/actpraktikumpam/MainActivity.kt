@@ -65,6 +65,7 @@ fun BasicCompose( modifier: Modifier = Modifier){
         Text(
             text = "Nama",
             fontFamily = FontFamily.Serif,
+            fontWeight = FontWeight.Bold,
             fontSize = 15.sp
         )
         Text(text = "Namira Anjani",
