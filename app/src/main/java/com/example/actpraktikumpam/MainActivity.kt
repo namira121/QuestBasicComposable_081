@@ -60,14 +60,14 @@ fun BasicCompose( modifier: Modifier = Modifier){
         )
         Text(
             text = "Nama",
-            fontSize = 25.sp
+            fontSize = 15.sp
         )
         Text(text = "Namira Anjani",
             fontWeight = FontWeight.SemiBold,
             fontSize = 25.sp
         )
         Text(text = "20220140081",
-            )
+            fontWeight = FontWeight.Bold,)
         Image(painter = painterResource(id = R.drawable.foto),
             contentDescription = null,
         )
