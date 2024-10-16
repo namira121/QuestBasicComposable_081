@@ -62,7 +62,9 @@ fun BasicCompose( modifier: Modifier = Modifier){
             fontSize = 25.sp
         )
         Text(text = "Namira Anjani",
-            fontWeight = FontWeight.SemiBold,)
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 25.sp
+        )
     }
 }
 
