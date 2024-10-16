@@ -61,6 +61,7 @@ fun BasicCompose( modifier: Modifier = Modifier){
             text = "Nama",
             fontSize = 25.sp
         )
+        Text(text = "Namira Anjani",)
     }
 }
 
