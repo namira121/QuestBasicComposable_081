@@ -54,11 +54,11 @@ fun BasicCompose( modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
-
         Image(painter = painterResource(id = R.drawable.logofifa3),
             contentDescription = null
         )
-
+        Text(
+            text = "Nama",)
     }
 }
 
