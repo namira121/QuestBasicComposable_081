@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose( modifier: Modifier = Modifier){
 
     Column(horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize()
     ) {
         Text(text = "Indonesia",
