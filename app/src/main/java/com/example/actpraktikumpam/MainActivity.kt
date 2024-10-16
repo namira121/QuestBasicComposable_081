@@ -58,7 +58,8 @@ fun BasicCompose( modifier: Modifier = Modifier){
             fontSize = 25.sp
         )
         Image(painter = painterResource(id = R.drawable.logofifa3),
-            contentDescription = null
+            contentDescription = null,
+            modifier = modifier.size(250.dp)
         )
         Text(
             text = "Nama",
