@@ -66,6 +66,8 @@ fun BasicCompose( modifier: Modifier = Modifier){
             fontWeight = FontWeight.SemiBold,
             fontSize = 25.sp
         )
+        Text(text = "20220140081",
+            )
         Image(painter = painterResource(id = R.drawable.foto),
             contentDescription = null,
         )
