@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -63,6 +64,7 @@ fun BasicCompose( modifier: Modifier = Modifier){
         )
         Text(
             text = "Nama",
+            fontFamily = FontFamily.Serif,
             fontSize = 15.sp
         )
         Text(text = "Namira Anjani",
